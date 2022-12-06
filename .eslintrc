@@ -1,0 +1,12 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "parserOptions": { "ecmaVersion": 2018, "sourceType": "module" },
+  "rules": {
+    "semi": ["error", "never"],
+    "indent": [0, 2],
+    "space-before-function-paren": ["error", { "anonymous": "always", "named": "never" }],
+    "multiline-ternary": ["off"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true, "avoidEscape": true }]
+  }
+}
